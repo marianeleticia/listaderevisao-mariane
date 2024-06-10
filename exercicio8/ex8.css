@@ -1,0 +1,27 @@
+/* Mariane Letícia Souza Moreira */
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.carousel img {
+    width: 100%;
+    display: none;
+}
+.carousel img.active {
+    display: block;
+}
+.carousel-buttons {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.carousel-buttons button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}

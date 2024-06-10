@@ -1,0 +1,19 @@
+/* Mariane Letícia Souza Moreira */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #c2d9f4;
+}
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+}

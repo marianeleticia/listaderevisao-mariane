@@ -1,0 +1,46 @@
+<!-- Mariane Letícia Souza Moreira -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria de Imagens</title>
+
+</head>
+<body>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+    </style>
+    <div class="buttons">
+        <button data-filter="all">Todas</button>
+        <button data-filter="nature">Natureza</button>
+        <button data-filter="city">Cidade</button>
+    </div>
+    <div class="gallery">
+        <img src="../exercicio14/nature1.png" alt="Natureza" data-category="nature">
+        <img src="../exercicio14/city1.png" alt="Cidade" data-category="city">
+        <img src="../exercicio14/nature2.png" alt="Natureza" data-category="nature">
+        <img src="../exercicio14/city2.png" alt="Cidade" data-category="city">
+    </div>
+    <script src="../exercicio14/ex14.js"></script>
+</body>
+</html>

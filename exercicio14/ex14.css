@@ -1,0 +1,21 @@
+/* Mariane Letícia Souza Moreira */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}

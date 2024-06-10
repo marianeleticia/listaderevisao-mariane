@@ -1,0 +1,37 @@
+/* Mariane Letícia Souza Moreira */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#new-task {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#add-task {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#add-task:hover {
+    background-color: #45a049;
+}
+
+#task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#task-list li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#task-list li:last-child {
+    margin-bottom: 0;
+}

@@ -1,0 +1,10 @@
+/* Mariane Letícia Souza Moreira */
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    border: 20px solid #727272;
+    transition: border-color 0.3s;
+}
+.centered-image:hover {
+    border-color: #3294f7;
+}

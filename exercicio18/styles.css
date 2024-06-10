@@ -1,0 +1,19 @@
+ /* Mariane Letícia Souza Moreira */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+h1 {
+    margin-top: 50px;
+}
